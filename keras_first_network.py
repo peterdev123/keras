@@ -4,7 +4,7 @@ from tensorflow.keras.layers import Dense   # type: ignore
 
 # load the dataset  
 
-dataset = loadtxt('Keras Activity\pima-indians-diabetes.csv', delimiter=',')  
+dataset = loadtxt('pima-indians-diabetes.csv', delimiter=',')  
 
 # split into input (X) and output (y) variables  
 
